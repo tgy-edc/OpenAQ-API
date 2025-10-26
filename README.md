@@ -48,7 +48,7 @@ Bu kütüphane ile bu zengin veri kaynağına modern `async/await` sözdizimi ve
 `OpenAQ` paketini Swift Package Manager (SPM) kullanarak projenize ekleyebilirsiniz.
 
 Xcode'da: **File > Add Packages...** seçeneğine gidin ve arama çubuğuna bu repository'nin URL'ini yapıştırın:
-`https://github.com/CanSagnak1/OpenAQClient`
+`https://github.com/tgy-edc/OpenAQClient`
 
 Veya `Package.swift` dosyanıza `dependencies` dizisi altına ekleyin:
 
