@@ -62,13 +62,13 @@ let package = Package(
         .iOS(.v13),
     ],
     dependencies: [
-        .package(url: "[https://github.com/SENIN-KULLANICI-ADIN/SENIN-REPO-ADIN](https://github.com/SENIN-KULLANICI-ADIN/SENIN-REPO-ADIN)", from: "1.0.0")
+        .package(url: "[https://github.com/tgy-edc/OpenAQ-API](https://github.com/tgy-edc/OpenAQ-API)", from: "1.0.0")
     ],
     targets: [
         .target(
             name: "MyApp",
             dependencies: [
-                .product(name: "OpenAQ", package: "SENIN-REPO-ADIN") // 'package' adını repo adınızla eşleştirin
+                .product(name: "OpenAQ", package: "OpenAQ-API")
             ]
         )
     ]
